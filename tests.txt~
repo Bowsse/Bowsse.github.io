@@ -1,0 +1,12 @@
+*** Settings ***
+Library           ExtendedSelenium2Library
+
+*** Variables ***
+${Browser}        Firefox
+${SiteUrl}        /home/jaakko/jenkins/workspace/pluginitesti/index.html
+
+*** Test Cases ***
+test
+    open browser    ${SiteUrl}    ${Browser}
+    wait until page contains     Bowsse
+    close browser

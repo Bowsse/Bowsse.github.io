@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20160531 13:40:56.523" generator="Robot 3.0 (Python 2.7.6 on linux2)">
+<suite source="/home/jaakko/GithubPage/Bowsse.github.io/tests.txt" id="s1" name="Tests">
+<test id="s1-t1" name="test">
+<kw name="Open Browser" library="ExtendedSelenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SiteUrl}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20160531 13:40:56.578" level="INFO">Opening browser 'Firefox' to base url 'http://bowsse.github.io'</msg>
+<status status="PASS" endtime="20160531 13:41:00.627" starttime="20160531 13:40:56.578"></status>
+</kw>
+<kw name="Close Browser" library="ExtendedSelenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20160531 13:41:00.640" starttime="20160531 13:41:00.628"></status>
+</kw>
+<status status="PASS" endtime="20160531 13:41:00.640" critical="yes" starttime="20160531 13:40:56.577"></status>
+</test>
+<status status="PASS" endtime="20160531 13:41:00.641" starttime="20160531 13:40:56.523"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Tests" pass="1">Tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
