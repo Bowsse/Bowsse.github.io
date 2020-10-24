@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Vappu</title>
+
+  </head>
+
+  <body>
+    <div class="auto-style1">
+    <header>
+      <div class="inner">
+        <h1 id="h1"></h1>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix" style="left: 0px; top: 0px">
+        <section id="main-content">
+          
+<p id="days-to"></p>
+
+
+
+        </section>
+      </div>
+    </div>
+<script>
+
+today=new Date();
+var vappu=new Date(today.getFullYear(), 3, 30);
+if (today.getMonth()>=4)
+{
+vappu.setFullYear(vappu.getFullYear()+1); 
+}  
+var one_day=1000*60*60*24;
+var days = Math.ceil((vappu.getTime()-today.getTime())/(one_day));
+ 
+document.getElementById("h1").innerHTML = days + " päivää vappuun"
+
+document.getElementById("days-to").innerHTML +="Vappu";
+  for (i = 0; i < days; i++) 
+  {
+  document.getElementById("days-to").innerHTML +="aaton";
+  }
+    document.getElementById("days-to").innerHTML +="aatto.";
+
+
+</script>
+
+  
+    </div>
+
+  
+  </body>
+</html>
