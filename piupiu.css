@@ -1,0 +1,17 @@
+.box{
+    position:relative;
+    background: blue;
+    font-size:10px;
+    top:40px;
+    left:40px;
+    display:inline-block;
+    margin:20px;
+    border-radius: 50% ;
+    width:40px;
+    height:40px;
+    color:white;
+    text-align:center;
+    line-height:20px;
+}
+
+html,body{margin:0; padding:0;}
