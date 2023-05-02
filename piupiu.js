@@ -903,6 +903,29 @@
 	var F = PHY2D.rectangle(300, 155, 200, 200, 1, 55, {src: "molang4.png", w:320, h:400,y:-14});
 
 
+
+	var F = PHY2D.rectangle(300, 155, 200, 200, 1, 55, {src: "molang1.png", w:320, h:400,y:-14});
+	var F = PHY2D.rectangle(300, 155, 200, 200, 1, 55, {src: "molang2.png", w:320, h:400,y:-14});
+	var F = PHY2D.rectangle(300, 155, 200, 200, 1, 55, {src: "molang3.png", w:320, h:400,y:-14});
+	var F = PHY2D.rectangle(300, 155, 200, 200, 1, 55, {src: "molang4.png", w:320, h:400,y:-14});
+
+
+	var F = PHY2D.rectangle(300, 155, 200, 200, 1, 55, {src: "molang1.png", w:320, h:400,y:-14});
+	var F = PHY2D.rectangle(300, 155, 200, 200, 1, 55, {src: "molang2.png", w:320, h:400,y:-14});
+	var F = PHY2D.rectangle(300, 155, 200, 200, 1, 55, {src: "molang3.png", w:320, h:400,y:-14});
+	var F = PHY2D.rectangle(300, 155, 200, 200, 1, 55, {src: "molang4.png", w:320, h:400,y:-14});
+
+
+
+	var F = PHY2D.rectangle(300, 155, 200, 200, 1, 55, {src: "molang1.png", w:320, h:400,y:-14});
+	var F = PHY2D.rectangle(300, 155, 200, 200, 1, 55, {src: "molang2.png", w:320, h:400,y:-14});
+	var F = PHY2D.rectangle(300, 155, 200, 200, 1, 55, {src: "molang3.png", w:320, h:400,y:-14});
+	var F = PHY2D.rectangle(300, 155, 200, 200, 1, 55, {src: "molang4.png", w:320, h:400,y:-14});
+
+
+
+
+
 	while (irb < days)
 	{
 		var F = PHY2D.rectangle(500, 55, 51, 100, 1, 55, {src: "piu.png", w:100, h:100,y:-14});
