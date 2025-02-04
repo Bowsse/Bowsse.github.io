@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-GolfWithMyself-0.1.0";
 const contentToCache = [
     "Build/4.2.WebGL.loader.js",
-    "Build/4.2.WebGL.framework.js.gz",
-    "Build/4.2.WebGL.data.gz",
-    "Build/4.2.WebGL.wasm.gz",
+    "Build/4.2.WebGL.framework.js",
+    "Build/4.2.WebGL.data",
+    "Build/4.2.WebGL.wasm",
     "TemplateData/style.css"
 
 ];
